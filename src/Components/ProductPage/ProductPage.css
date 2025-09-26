@@ -1,0 +1,14 @@
+.productPage {
+  display: flex;
+  padding: 2rem;
+}
+.productPage img {
+  max-width: 300px;
+  margin-right: 2rem;
+}   
+.info button {
+ padding: 1rem;
+ font-size: 1rem;
+  background-color: rgb(95, 95, 95);
+  color: white  ;
+}
