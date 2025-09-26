@@ -14,7 +14,11 @@ const router = createBrowserRouter([
     path: "/ProductPage/:id",
     element: <ProductPage />,
   },
-]);
+],
+ {
+    basename: "/xxxMuck/" // <--- přidej sem přesně název repozitáře
+  }
+);
 
 
 function App() {
